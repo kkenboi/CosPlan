@@ -5,6 +5,6 @@
   "scripts": {
     "start": "concurrently -c \"green,blue\" --names C,S \"npm run start:client\" \"npm run start:server\"",
     "start:client": "cd ./client && npm run dev",
-    "start:server": "cd ./server && node index.js"
+    "start:server": "cd ./server && nodemon index.js"
   }
 }
